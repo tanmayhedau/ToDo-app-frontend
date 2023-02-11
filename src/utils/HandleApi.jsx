@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://todo-app-api-kjmp.onrender.com";
 
 const getAllToDo = (setToDo) => {
   axios.get(baseUrl).then(({ data }) => {
